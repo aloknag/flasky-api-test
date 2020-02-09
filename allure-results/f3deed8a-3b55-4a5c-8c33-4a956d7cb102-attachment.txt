@@ -1,0 +1,2 @@
+get_token:  MTMwNzQyMzc0NTY3NzI4MTE2NDE2ODA0MzQyNzY1NDYzNjAwMzY0
+test_update_user_information:  {'url': 'http://localhost:8080/api/users/alok', 'status_code': 201, 'message': 'Updated'}

@@ -1,0 +1,2 @@
+get_token:  OTIxMjc1NTEyOTc3MDQ5NDMwODg5NzA1NzgyNTE0MzA3ODU4MDQ=
+test_get_user_information:  {'url': 'http://localhost:8080/api/users/alok', 'response': {'message': 'retrieval succesful', 'payload': {'firstname': 'Duane', 'lastname': 'Mitchell', 'phone': '709-029-1627x5439'}, 'status': 'SUCCESS'}}

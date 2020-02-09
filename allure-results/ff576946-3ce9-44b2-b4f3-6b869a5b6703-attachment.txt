@@ -1,0 +1,1 @@
+test_get_user_information_3:  {'url': 'http://localhost:8080/api/users/testuser1001', 'response': {'message': 'retrieval succesful', 'payload': {'firstname': 'test', 'lastname': 'user1001', 'phone': '213-3004-9009'}, 'status': 'SUCCESS'}}

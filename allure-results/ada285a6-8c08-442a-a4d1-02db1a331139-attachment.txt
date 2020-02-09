@@ -1,0 +1,2 @@
+get_token:  Njk2MzM3NzY5Njc1Njg3NDYxMjA1NDY2Mjc3NDc3MjUzNzQwNTc=
+test_get_updated_user_information:  {'url': 'http://localhost:8080/api/users/alok', 'response': {'message': 'retrieval succesful', 'payload': {'firstname': 'Catherine', 'lastname': 'Green', 'phone': '7996191629'}, 'status': 'SUCCESS'}}

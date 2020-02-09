@@ -1,0 +1,5 @@
+{
+  "base_url": "http://localhost:8080",
+  "valid_credentials": ["alok", "demo123"],
+  "invalid_credentials": ["inavlid", "invalid"]
+}

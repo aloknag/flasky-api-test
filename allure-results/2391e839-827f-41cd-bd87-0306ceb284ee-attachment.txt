@@ -1,0 +1,1 @@
+test_get_user_information_2:  {'url': 'http://localhost:8080/api/users/alok', 'response': {'message': 'Token authentication required', 'status': 'FAILURE'}}

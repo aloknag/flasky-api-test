@@ -1,0 +1,1 @@
+{'url': 'http://localhost:8080/api/auth/token', 'status_code': 401, 'response': {'message': 'Invalid User', 'status': 'FAILURE'}}
