@@ -1,6 +1,8 @@
 """
 API endpoints for Flasky for users
 """
+import unittest
+
 from api_testing.api_framework.base_api import BaseApi
 from api_testing.api_framework import utils
 
@@ -57,3 +59,20 @@ class UsersApi(BaseApi):
             'response': json_response['json_response']
         }
 
+
+class Test_UsersApi(unittest.TestCase):
+
+    def setUp(self):
+        self.api = UsersApi()
+        self.api.base_url = 'http://localhost:8080'
+
+    def test_get_all_users(self):
+        self.assertIsNotNone(self.api.get_all_users())
+
+    def test_get_token_user(self):
+        response= self.api.get_token(('alok', 'demo123'))
+        self.assertIsNotNone(self.api.get_token(('alok', 'demo123')))
+
+    def test_get_token_nouser(self):
+        response = self.api.get_token()
+        self.assertIsNotNone(self.api.get_token())
