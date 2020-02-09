@@ -44,7 +44,11 @@ api_testing folder contains<br>
   - ``py.test --alluredir=./allure-results/ api_testing/tests``
   - To view test report.
   - ``allure serve ./allure-results ``
+
+## Results  
+  ![image](alure_api_1.png)
   
+  ![image](allure_api_2.png)
   
-  
+  ![image](allure_api_3.png)
   
